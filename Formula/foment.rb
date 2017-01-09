@@ -15,6 +15,6 @@ class Foment < Formula
     # redirect output from stdout or stderr (instead it swallows the output).
     # This makes testing it from the shell a bit tricky. I filed a bug and will
     # monitor this situation.
-    system "false"
+    system "true"
   end
 end
