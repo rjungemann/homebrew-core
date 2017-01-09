@@ -7,7 +7,7 @@ class Foment < Formula
   def install
     cd "unix"
     system "make"
-    bin.install "unix/release/foment"
+    bin.install "release/foment"
   end
 
   test do
